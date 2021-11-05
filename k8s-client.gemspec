@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   spec.bindir        = "bin"
   spec.executables   = []
   spec.require_paths = ["lib"]
-  spec.required_ruby_version = '~> 2.4'
+  spec.required_ruby_version = '>= 2.4', '< 4'
 
   spec.add_runtime_dependency "excon", "~> 0.66"
   spec.add_runtime_dependency "recursive-open-struct", "~> 1.1.0"
